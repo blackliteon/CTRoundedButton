@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3210FB4B161CD96A004739CC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3210FB4A161CD96A004739CC /* README.md */; };
 		323DEC78161B8A0600250BAD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323DEC77161B8A0600250BAD /* Cocoa.framework */; };
 		323DEC82161B8A0600250BAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 323DEC80161B8A0600250BAD /* InfoPlist.strings */; };
 		323DEC84161B8A0600250BAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 323DEC83161B8A0600250BAD /* main.m */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3210FB4A161CD96A004739CC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		323DEC73161B8A0600250BAD /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		323DEC77161B8A0600250BAD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		323DEC7A161B8A0600250BAD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -49,6 +51,7 @@
 		323DEC68161B8A0500250BAD = {
 			isa = PBXGroup;
 			children = (
+				3210FB4A161CD96A004739CC /* README.md */,
 				32510D03161CD6E90091155D /* CTRoundedButton.h */,
 				32510D04161CD6E90091155D /* CTRoundedButton.m */,
 				323DEC7D161B8A0600250BAD /* SampleApp */,
@@ -163,6 +166,7 @@
 				323DEC82161B8A0600250BAD /* InfoPlist.strings in Resources */,
 				323DEC88161B8A0600250BAD /* Credits.rtf in Resources */,
 				323DEC8E161B8A0600250BAD /* MainMenu.xib in Resources */,
+				3210FB4B161CD96A004739CC /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
